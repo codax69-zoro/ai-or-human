@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="cyanFlame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Pixelpalooza Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <text x="170" y="19" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">🤖 MIDJOURNEY V6 GENERATION</text>
+  </g>
+
+  <!-- Elements -->
+  
+        <!-- Wooden Thela (Vegetable Cart) -->
+        <rect x="80" y="320" width="640" height="180" rx="10" fill="#78350f" stroke="#000" stroke-width="5"/>
+        <rect x="100" y="340" width="600" height="20" fill="#92400e"/>
+        <!-- Veggies on Cart -->
+        <circle cx="160" cy="305" r="28" fill="#ef4444" stroke="#000" stroke-width="3"/>
+        <circle cx="205" cy="310" r="25" fill="#ef4444" stroke="#000" stroke-width="3"/>
+        <circle cx="180" cy="275" r="24" fill="#dc2626" stroke="#000" stroke-width="3"/>
+        <text x="180" y="345" fill="#fff" font-weight="bold" font-size="12" text-anchor="middle">TAMATAR</text>
+        <!-- Coriander Bundle -->
+        <ellipse cx="320" cy="290" rx="45" ry="30" fill="#15803d" stroke="#14532d" stroke-width="3"/>
+        <text x="320" y="345" fill="#86efac" font-weight="bold" font-size="12" text-anchor="middle">FREE DHANIYA</text>
+        <!-- Robot Figure (Left) with 7 Fingers -->
+        <g transform="translate(180, 80)">
+          <!-- Head -->
+          <rect x="40" y="30" width="80" height="70" rx="15" fill="#94a3b8" stroke="#000" stroke-width="4"/>
+          <circle cx="65" cy="65" r="10" fill="#00f0ff"/>
+          <circle cx="95" cy="65" r="10" fill="#00f0ff"/>
+          <rect x="60" y="85" width="40" height="5" fill="#000"/>
+          <!-- 7-Fingered Metallic Hand Pointing -->
+          <path d="M120,130 C150,140 180,180 200,200" stroke="#64748b" stroke-width="12" stroke-linecap="round"/>
+          <!-- Multi fingers AI Glitch -->
+          <line x1="200" y1="200" x2="225" y2="180" stroke="#94a3b8" stroke-width="4"/>
+          <line x1="200" y1="200" x2="230" y2="190" stroke="#94a3b8" stroke-width="4"/>
+          <line x1="200" y1="200" x2="232" y2="200" stroke="#94a3b8" stroke-width="4"/>
+          <line x1="200" y1="200" x2="230" y2="210" stroke="#94a3b8" stroke-width="4"/>
+          <line x1="200" y1="200" x2="225" y2="220" stroke="#94a3b8" stroke-width="4"/>
+          <line x1="200" y1="200" x2="218" y2="230" stroke="#94a3b8" stroke-width="4"/>
+          <line x1="200" y1="200" x2="210" y2="238" stroke="#94a3b8" stroke-width="4"/>
+          <text x="250" y="180" fill="#ef4444" font-weight="900" font-size="13">⚠️ 7 FINGERS</text>
+        </g>
+        <!-- Dialogue Bubble -->
+        <rect x="360" y="80" width="360" height="110" rx="16" fill="#fff" stroke="#000" stroke-width="4"/>
+        <polygon points="410,190 390,230 440,190" fill="#fff" stroke="#000" stroke-width="4"/>
+        <rect x="400" y="185" width="40" height="10" fill="#fff"/>
+        <text x="540" y="125" fill="#000" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" text-anchor="middle">"ERROR 404: DHANIYA MIRCHI</text>
+        <text x="540" y="155" fill="#b91c1c" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" text-anchor="middle">FREE NAHI DIYA TOH RIOT HO JAYEGA"</text>
+        
+
+  <!-- Watermark border corner accents -->
+  <rect x="15" y="15" width="20" height="4" fill="#ff007a"/>
+  <rect x="15" y="15" width="4" height="20" fill="#ff007a"/>
+  <rect x="765" y="15" width="20" height="4" fill="#00f0ff"/>
+  <rect x="781" y="15" width="4" height="20" fill="#00f0ff"/>
+  <rect x="15" y="581" width="20" height="4" fill="#00f0ff"/>
+  <rect x="15" y="565" width="4" height="20" fill="#00f0ff"/>
+  <rect x="765" y="581" width="20" height="4" fill="#ff007a"/>
+  <rect x="781" y="565" width="4" height="20" fill="#ff007a"/>
+</svg>

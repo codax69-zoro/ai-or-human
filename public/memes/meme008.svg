@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18002e"/>
+      <stop offset="100%" stop-color="#2c0054"/>
+    </linearGradient>
+    <linearGradient id="cyanFlame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Pixelpalooza Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <text x="170" y="19" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">🤖 CYBER-DESI CONCEPT ART</text>
+  </g>
+
+  <!-- Elements -->
+  
+        <!-- Neon Varanasi River & Holographic Pillars -->
+        <rect x="0" y="420" width="800" height="180" fill="#080014"/>
+        <line x1="0" y1="450" x2="800" y2="450" stroke="#a855f7" stroke-width="2" stroke-dasharray="12 6"/>
+        <line x1="0" y1="500" x2="800" y2="500" stroke="#06b6d4" stroke-width="2" stroke-dasharray="20 10"/>
+        <!-- Floating Cyber Sadhu in Padmasana -->
+        <g transform="translate(270, 120)">
+          <!-- Quantum Levitation Rings -->
+          <ellipse cx="130" cy="270" rx="140" ry="25" fill="none" stroke="#00f0ff" stroke-width="4" opacity="0.8" filter="drop-shadow(0 0 10px #00f0ff)"/>
+          <ellipse cx="130" cy="290" rx="100" ry="18" fill="none" stroke="#d946ef" stroke-width="3" opacity="0.6"/>
+          <!-- Orange Robe Body -->
+          <polygon points="130,120 70,250 190,250" fill="#ea580c" stroke="#000" stroke-width="4"/>
+          <!-- Head & Beard -->
+          <circle cx="130" cy="85" r="35" fill="#fed7aa" stroke="#000" stroke-width="3"/>
+          <path d="M100,85 C100,150 160,150 160,85 Z" fill="#f8fafc" stroke="#000" stroke-width="3"/>
+          <!-- Third Eye Hologram -->
+          <polygon points="130,60 135,70 130,80 125,70" fill="#00f0ff" filter="drop-shadow(0 0 8px #00f0ff)"/>
+          <!-- Holographic Rudraksha Mala floating around -->
+          <circle cx="90" cy="140" r="7" fill="#fb923c" stroke="#00f0ff" stroke-width="2"/>
+          <circle cx="105" cy="160" r="7" fill="#fb923c" stroke="#00f0ff" stroke-width="2"/>
+          <circle cx="130" cy="170" r="8" fill="#fb923c" stroke="#00f0ff" stroke-width="2"/>
+          <circle cx="155" cy="160" r="7" fill="#fb923c" stroke="#00f0ff" stroke-width="2"/>
+          <circle cx="170" cy="140" r="7" fill="#fb923c" stroke="#00f0ff" stroke-width="2"/>
+        </g>
+        <rect x="200" y="480" width="400" height="50" rx="25" fill="#000" stroke="#a855f7" stroke-width="3"/>
+        <text x="400" y="512" fill="#f0abfc" font-family="'Outfit', sans-serif" font-weight="900" font-size="18" text-anchor="middle">"PING 0.001 MS TO UNIVERSE SERVER"</text>
+        
+
+  <!-- Watermark border corner accents -->
+  <rect x="15" y="15" width="20" height="4" fill="#ff007a"/>
+  <rect x="15" y="15" width="4" height="20" fill="#ff007a"/>
+  <rect x="765" y="15" width="20" height="4" fill="#00f0ff"/>
+  <rect x="781" y="15" width="4" height="20" fill="#00f0ff"/>
+  <rect x="15" y="581" width="20" height="4" fill="#00f0ff"/>
+  <rect x="15" y="565" width="4" height="20" fill="#00f0ff"/>
+  <rect x="765" y="581" width="20" height="4" fill="#ff007a"/>
+  <rect x="781" y="565" width="4" height="20" fill="#ff007a"/>
+</svg>

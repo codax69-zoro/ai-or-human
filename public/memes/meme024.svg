@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#271206"/>
+    </linearGradient>
+    <linearGradient id="cyanFlame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Pixelpalooza Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <text x="170" y="19" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">👤 HUMAN: MIRZAPUR / PRIME VIDEO</text>
+  </g>
+
+  <!-- Elements -->
+  
+        <!-- Haveli Antique Sofa & Carpet -->
+        <rect x="120" y="160" width="560" height="260" rx="15" fill="#3b1d11" stroke="#ca8a04" stroke-width="4"/>
+        <!-- Pankaj Tripathi (Kaleen Bhaiya) Drawing -->
+        <g transform="translate(280, 90)">
+          <!-- Royal Brown Silk Kurta -->
+          <path d="M50,140 L190,140 L210,310 L30,310 Z" fill="#78350f" stroke="#000" stroke-width="4"/>
+          <!-- Calm Peaceful Face & Grey-Tinted Hair -->
+          <circle cx="120" cy="85" r="45" fill="#fed7aa" stroke="#000" stroke-width="3"/>
+          <path d="M75,70 C75,30 165,30 165,70" fill="#475569"/>
+          <!-- Dignified Mustache & Calm Slight Smile -->
+          <path d="M100,108 Q120,118 140,108" stroke="#000" stroke-width="4" fill="none"/>
+          <line x1="108" y1="120" x2="132" y2="120" stroke="#000" stroke-width="3"/>
+        </g>
+        <rect x="200" y="480" width="400" height="54" rx="27" fill="#ca8a04" stroke="#000" stroke-width="4"/>
+        <text x="400" y="515" fill="#000" font-family="'Outfit', sans-serif" font-weight="900" font-size="24" text-anchor="middle">"YE BHI THEEK HAI."</text>
+        
+
+  <!-- Watermark border corner accents -->
+  <rect x="15" y="15" width="20" height="4" fill="#ff007a"/>
+  <rect x="15" y="15" width="4" height="20" fill="#ff007a"/>
+  <rect x="765" y="15" width="20" height="4" fill="#00f0ff"/>
+  <rect x="781" y="15" width="4" height="20" fill="#00f0ff"/>
+  <rect x="15" y="581" width="20" height="4" fill="#00f0ff"/>
+  <rect x="15" y="565" width="4" height="20" fill="#00f0ff"/>
+  <rect x="765" y="581" width="20" height="4" fill="#ff007a"/>
+  <rect x="781" y="565" width="4" height="20" fill="#ff007a"/>
+</svg>

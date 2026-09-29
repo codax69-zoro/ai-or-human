@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#713f12"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <linearGradient id="cyanFlame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Pixelpalooza Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <text x="170" y="19" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">👤 HUMAN: CHUP CHUP KE (2006)</text>
+  </g>
+
+  <!-- Elements -->
+  
+        <!-- Haveli Washing Courtyard -->
+        <rect x="100" y="60" width="600" height="380" fill="#292524" stroke="#eab308" stroke-width="3"/>
+        <!-- Rajpal Yadav (Bandya) Drawing -->
+        <g transform="translate(280, 90)">
+          <!-- Yellow Faded Kurta -->
+          <path d="M60,140 L180,140 L195,310 L45,310 Z" fill="#eab308" stroke="#000" stroke-width="4"/>
+          <!-- Face with Bandage on Forehead -->
+          <circle cx="120" cy="85" r="42" fill="#fed7aa" stroke="#000" stroke-width="3"/>
+          <!-- Bandage -->
+          <rect x="95" y="55" width="45" height="14" rx="4" fill="#f8fafc" stroke="#000" stroke-width="2"/>
+          <!-- Wide Staring Eyes & Pointing Finger -->
+          <ellipse cx="105" cy="85" rx="10" ry="12" fill="#fff" stroke="#000" stroke-width="2"/>
+          <circle cx="105" cy="85" r="4" fill="#000"/>
+          <ellipse cx="135" cy="85" rx="10" ry="12" fill="#fff" stroke="#000" stroke-width="2"/>
+          <circle cx="135" cy="85" r="4" fill="#000"/>
+          <!-- Raised Warning Finger -->
+          <g transform="translate(180, 120)">
+            <rect x="0" y="0" width="16" height="60" rx="8" fill="#fed7aa" stroke="#000" stroke-width="3"/>
+          </g>
+        </g>
+        <rect x="140" y="480" width="520" height="54" rx="27" fill="#eab308" stroke="#000" stroke-width="4"/>
+        <text x="400" y="515" fill="#000" font-family="'Outfit', sans-serif" font-weight="900" font-size="22" text-anchor="middle">"MUJHE SAB PATA HAI! MAIN NAHI BATAUNGA!"</text>
+        
+
+  <!-- Watermark border corner accents -->
+  <rect x="15" y="15" width="20" height="4" fill="#ff007a"/>
+  <rect x="15" y="15" width="4" height="20" fill="#ff007a"/>
+  <rect x="765" y="15" width="20" height="4" fill="#00f0ff"/>
+  <rect x="781" y="15" width="4" height="20" fill="#00f0ff"/>
+  <rect x="15" y="581" width="20" height="4" fill="#00f0ff"/>
+  <rect x="15" y="565" width="4" height="20" fill="#00f0ff"/>
+  <rect x="765" y="581" width="20" height="4" fill="#ff007a"/>
+  <rect x="781" y="565" width="4" height="20" fill="#ff007a"/>
+</svg>

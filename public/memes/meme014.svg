@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="cyanFlame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Pixelpalooza Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <text x="170" y="19" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">🤖 SURREAL MIDJOURNEY BLEND</text>
+  </g>
+
+  <!-- Elements -->
+  
+        <!-- Mumbai Local Compartment Interior -->
+        <rect x="100" y="60" width="600" height="400" fill="#0f172a" stroke="#cbd5e1" stroke-width="4"/>
+        <!-- Grab Rails (Handles) -->
+        <line x1="120" y1="120" x2="680" y2="120" stroke="#94a3b8" stroke-width="8"/>
+        <!-- Hanging Handles -->
+        <circle cx="200" cy="160" r="16" fill="none" stroke="#94a3b8" stroke-width="4"/>
+        <circle cx="360" cy="160" r="16" fill="none" stroke="#94a3b8" stroke-width="4"/>
+        <circle cx="520" cy="160" r="16" fill="none" stroke="#94a3b8" stroke-width="4"/>
+        <circle cx="640" cy="160" r="16" fill="none" stroke="#94a3b8" stroke-width="4"/>
+        <!-- Centurion with Red Plumed Helmet & Shield -->
+        <g transform="translate(280, 140)">
+          <!-- Red Helmet Plume -->
+          <path d="M100,20 C100,-20 160,-20 160,20 Z" fill="#dc2626"/>
+          <!-- Bronze Helmet -->
+          <polygon points="100,20 160,20 150,80 110,80" fill="#ca8a04" stroke="#000" stroke-width="3"/>
+          <rect x="115" y="45" width="30" height="15" fill="#000"/>
+          <!-- Roman Armor & Red Cape -->
+          <path d="M80,80 L180,80 L190,260 L70,260 Z" fill="#78350f" stroke="#ca8a04" stroke-width="4"/>
+          <!-- Giant Golden Scutum Shield -->
+          <rect x="160" y="100" width="100" height="180" rx="15" fill="#b91c1c" stroke="#facc15" stroke-width="6"/>
+          <circle cx="210" cy="190" r="20" fill="#facc15"/>
+        </g>
+        <rect x="160" y="480" width="480" height="50" rx="25" fill="#000" stroke="#facc15" stroke-width="3"/>
+        <text x="400" y="512" fill="#fff" font-family="'Outfit', sans-serif" font-weight="900" font-size="18" text-anchor="middle">"DADAR AANE PAR DHAKKA APNE AAP MILEGA"</text>
+        
+
+  <!-- Watermark border corner accents -->
+  <rect x="15" y="15" width="20" height="4" fill="#ff007a"/>
+  <rect x="15" y="15" width="4" height="20" fill="#ff007a"/>
+  <rect x="765" y="15" width="20" height="4" fill="#00f0ff"/>
+  <rect x="781" y="15" width="4" height="20" fill="#00f0ff"/>
+  <rect x="15" y="581" width="20" height="4" fill="#00f0ff"/>
+  <rect x="15" y="565" width="4" height="20" fill="#00f0ff"/>
+  <rect x="765" y="581" width="20" height="4" fill="#ff007a"/>
+  <rect x="781" y="565" width="4" height="20" fill="#ff007a"/>
+</svg>

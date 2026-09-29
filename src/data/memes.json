@@ -1,0 +1,290 @@
+[
+  {
+    "id": "meme001",
+    "file": "/memes/meme001.svg",
+    "title": "Cyberpunk Auto-Rickshaw in Neo-Varanasi 2077",
+    "answer": "AI",
+    "category": "Absurd AI Art",
+    "difficulty": "easy",
+    "explanation": "Flying auto with neon RGB headlights hovering over the Ganga river with 8 chrome exhausts. Peak AI hallucination!"
+  },
+  {
+    "id": "meme002",
+    "file": "/memes/meme002.svg",
+    "title": "Robot Bargaining for Dhaniya Mirchi with Sabziwala",
+    "answer": "AI",
+    "category": "Indian Street AI",
+    "difficulty": "easy",
+    "explanation": "Look at the robot's hand having 7 chrome fingers while trying to grab free coriander leaves! Dead giveaway."
+  },
+  {
+    "id": "meme003",
+    "file": "/memes/meme003.svg",
+    "title": "Mona Lisa wearing Banarasi Silk Saree & Jhumkas",
+    "answer": "AI",
+    "category": "Desi Art Fusion",
+    "difficulty": "medium",
+    "explanation": "AI generated Mona Lisa in royal gold temple jewelry and a traditional wedding silk pallu with that signature smirk."
+  },
+  {
+    "id": "meme004",
+    "file": "/memes/meme004.svg",
+    "title": "Underwater Baraat with Scuba Dhol Walas",
+    "answer": "AI",
+    "category": "Absurd AI",
+    "difficulty": "easy",
+    "explanation": "Baraatis dancing underwater with dhol instruments and floating samosas. Even Indian weddings haven't reached this level yet!"
+  },
+  {
+    "id": "meme005",
+    "file": "/memes/meme005.svg",
+    "title": "Super Mario eating Vada Pav at Dadar Station",
+    "answer": "AI",
+    "category": "Gaming Crossover",
+    "difficulty": "medium",
+    "explanation": "Midjourney render of Mario dipping a crispy Vada Pav in neon green spicy thecha chutney on platform 3."
+  },
+  {
+    "id": "meme006",
+    "file": "/memes/meme006.svg",
+    "title": "Dadi Debugging PyTorch Neural Network at 3 AM",
+    "answer": "AI",
+    "category": "College & Tech",
+    "difficulty": "medium",
+    "explanation": "AI generated an Indian grandmother in specs typing tensor matrix multiplications with steel cutting chai nearby."
+  },
+  {
+    "id": "meme007",
+    "file": "/memes/meme007.svg",
+    "title": "Astronaut opening Hyderabadi Dum Biryani in Zero-G",
+    "answer": "AI",
+    "category": "Absurd AI",
+    "difficulty": "easy",
+    "explanation": "Floating basmati rice and rogue cardamom (elaichi) pods drifting inside the International Space Station!"
+  },
+  {
+    "id": "meme008",
+    "file": "/memes/meme008.svg",
+    "title": "Cyber Sadhu Levitating with Holographic Rudraksha",
+    "answer": "AI",
+    "category": "Sci-Fi Desi",
+    "difficulty": "easy",
+    "explanation": "Futuristic neon Varanasi ghats with a levitating yogi wrapped in quantum energy and digital prayer beads."
+  },
+  {
+    "id": "meme009",
+    "file": "/memes/meme009.svg",
+    "title": "Elon Musk in Golden Kurta Dancing Bhangra",
+    "answer": "AI",
+    "category": "Deepfake & AI",
+    "difficulty": "medium",
+    "explanation": "Classic deepfake generation — distorted crowd faces in background and extra thumb joint holding the dhol sticks."
+  },
+  {
+    "id": "meme010",
+    "file": "/memes/meme010.svg",
+    "title": "Bengaluru Traffic Cop Stopping a Flying DeLorean at Silk Board",
+    "answer": "AI",
+    "category": "Bengaluru Memes",
+    "difficulty": "easy",
+    "explanation": "Even sci-fi time machines can't bypass the Silk Board junction jam. Generated with AI prompt: 'Bangalore traffic 2099'."
+  },
+  {
+    "id": "meme011",
+    "file": "/memes/meme011.svg",
+    "title": "Temple Carved Entirely Out of Melting Dark Chocolate",
+    "answer": "AI",
+    "category": "Realistic AI",
+    "difficulty": "hard",
+    "explanation": "Looks appetizing, but the unnatural glossy liquid flow and impossible architectural physics scream AI generation."
+  },
+  {
+    "id": "meme012",
+    "file": "/memes/meme012.svg",
+    "title": "Persian Cat Negotiating Deposit with Gurgaon Landlord",
+    "answer": "AI",
+    "category": "Funny AI Animal",
+    "difficulty": "easy",
+    "explanation": "AI cat in spectacles reviewing the 11-month lease agreement and demanding 100% security deposit back."
+  },
+  {
+    "id": "meme013",
+    "file": "/memes/meme013.svg",
+    "title": "Golden Samosa Shaped iPhone 25 Ultra Pro Max",
+    "answer": "AI",
+    "category": "Desi Tech AI",
+    "difficulty": "easy",
+    "explanation": "Triple-camera system embedded on a golden fried crispy crust with a USB-C chutney port. Tim Cook approves."
+  },
+  {
+    "id": "meme014",
+    "file": "/memes/meme014.svg",
+    "title": "Ancient Roman Gladiators boarding Mumbai Local Train",
+    "answer": "AI",
+    "category": "Surreal AI",
+    "difficulty": "medium",
+    "explanation": "Roman soldiers with helmets and shields fighting for standing space in a Virar fast local."
+  },
+  {
+    "id": "meme015",
+    "file": "/memes/meme015.svg",
+    "title": "Indie Street Dog in Silk Nehru Jacket as Chief Guest",
+    "answer": "AI",
+    "category": "Street Culture AI",
+    "difficulty": "hard",
+    "explanation": "The fur and jacket texture look deceivingly realistic, but the asymmetrical button holes and phantom medals reveal AI."
+  },
+  {
+    "id": "meme016",
+    "file": "/memes/meme016.svg",
+    "title": "GigaChad in Veshti Dhoti sipping Degree Filter Coffee",
+    "answer": "AI",
+    "category": "Internet Culture AI",
+    "difficulty": "easy",
+    "explanation": "Ultra-chiseled jawline AI generation with impossible muscle definition holding a brass Davarah Tumbler."
+  },
+  {
+    "id": "meme017",
+    "file": "/memes/meme017.svg",
+    "title": "Babu Bhaiya: 'Yeh Baburao Ka Style Hai!'",
+    "answer": "HUMAN",
+    "category": "Bollywood Classic",
+    "difficulty": "easy",
+    "explanation": "The legendary Paresh Rawal in Hera Pheri (2000). 100% human cinematic history that birthed a thousand memes."
+  },
+  {
+    "id": "meme018",
+    "file": "/memes/meme018.svg",
+    "title": "Jethalal Shocked Wide Eyes Reaction",
+    "answer": "HUMAN",
+    "category": "Indian TV Reaction",
+    "difficulty": "easy",
+    "explanation": "Dilip Joshi's priceless real expression from Taarak Mehta Ka Ooltah Chashmah. No neural network can match this human acting!"
+  },
+  {
+    "id": "meme019",
+    "file": "/memes/meme019.svg",
+    "title": "Panchayat: 'Gajab Beizzati Hai Yaar'",
+    "answer": "HUMAN",
+    "category": "Web Series Reaction",
+    "difficulty": "easy",
+    "explanation": "Original live-action screengrab from TVF's Panchayat. Genuine human embarrassment captured on camera."
+  },
+  {
+    "id": "meme020",
+    "file": "/memes/meme020.svg",
+    "title": "Munna Bhai MBBS: Straight Faced 'Nahi'",
+    "answer": "HUMAN",
+    "category": "Bollywood Meme",
+    "difficulty": "easy",
+    "explanation": "Real film frame from Munna Bhai M.B.B.S. when Sanjay Dutt casually drops the ultimate one-word answer: 'Nahi'."
+  },
+  {
+    "id": "meme021",
+    "file": "/memes/meme021.svg",
+    "title": "Welcome: 'Control Majnu Control!'",
+    "answer": "HUMAN",
+    "category": "Bollywood Classic",
+    "difficulty": "easy",
+    "explanation": "Anil Kapoor as Majnu Bhai gripping his hands in Welcome (2007). Real actors, real chaos, human masterpiece."
+  },
+  {
+    "id": "meme022",
+    "file": "/memes/meme022.svg",
+    "title": "3 Idiots: 'Jahanpanah Tussi Great Ho!'",
+    "answer": "HUMAN",
+    "category": "College & Bollywood",
+    "difficulty": "easy",
+    "explanation": "Real movie scene of Raju and Farhan offering gifts to Rancho in 3 Idiots. Every college student's favorite format!"
+  },
+  {
+    "id": "meme023",
+    "file": "/memes/meme023.svg",
+    "title": "Shark Tank India: 'Yeh Sab Doglapan Hai'",
+    "answer": "HUMAN",
+    "category": "Reality TV Meme",
+    "difficulty": "easy",
+    "explanation": "Actual television broadcast frame from Sony LIV featuring Ashneer Grover delivering the viral quote of 2022."
+  },
+  {
+    "id": "meme024",
+    "file": "/memes/meme024.svg",
+    "title": "Mirzapur: Kaleen Bhaiya 'Ye Bhi Theek Hai'",
+    "answer": "HUMAN",
+    "category": "Web Series",
+    "difficulty": "easy",
+    "explanation": "Pankaj Tripathi's calm nod of acceptance from Amazon Prime's Mirzapur. Authentic human performance."
+  },
+  {
+    "id": "meme025",
+    "file": "/memes/meme025.svg",
+    "title": "Hostel 2 AM Electric Kettle Maggi Before Exam",
+    "answer": "HUMAN",
+    "category": "College Life",
+    "difficulty": "medium",
+    "explanation": "Genuine candid hostel phone photo! Real grease, crumpled handwritten notes, and 2 AM engineering survival panic."
+  },
+  {
+    "id": "meme026",
+    "file": "/memes/meme026.svg",
+    "title": "Swole Doge vs Cheems: 1st Sem vs Final Sem Engineer",
+    "answer": "HUMAN",
+    "category": "Classic Internet Meme",
+    "difficulty": "easy",
+    "explanation": "Human-edited classic meme template created with photoshop comparing first-year dreams with final-year reality."
+  },
+  {
+    "id": "meme027",
+    "file": "/memes/meme027.svg",
+    "title": "Disappointed Cricket Fan with Hands on Hips",
+    "answer": "HUMAN",
+    "category": "Cricket Internet Legend",
+    "difficulty": "easy",
+    "explanation": "Real human cricket fan Muhammad Sarim Akhtar broadcast live during the 2019 World Cup. Pure unscripted reaction!"
+  },
+  {
+    "id": "meme028",
+    "file": "/memes/meme028.svg",
+    "title": "Rajpal Yadav: 'Mujhe Sab Pata Hai' (Chup Chup Ke)",
+    "answer": "HUMAN",
+    "category": "Bollywood Meme",
+    "difficulty": "easy",
+    "explanation": "Iconic scene from Chup Chup Ke (2006). You can literally hear Rajpal Yadav shouting through this human still."
+  },
+  {
+    "id": "meme029",
+    "file": "/memes/meme029.svg",
+    "title": "Kirana Store Sign: 'Udhaar Mangkar Sharminda Na Karein'",
+    "answer": "HUMAN",
+    "category": "Street Culture",
+    "difficulty": "medium",
+    "explanation": "Real photograph of a Delhi grocery store's vintage painted tin board. Authentic human lettering and rustic shop humor."
+  },
+  {
+    "id": "meme030",
+    "file": "/memes/meme030.svg",
+    "title": "Two Spidermans Pointing: Backbenchers in Viva",
+    "answer": "HUMAN",
+    "category": "Classic Meme Format",
+    "difficulty": "easy",
+    "explanation": "1967 human hand-drawn animation frame with human Hinglish captions about two friends copying each other's project."
+  },
+  {
+    "id": "meme031",
+    "file": "/memes/meme031.svg",
+    "title": "Nana Patekar: 'Accha Khasa Chal Raha Tha'",
+    "answer": "HUMAN",
+    "category": "Bollywood Meme",
+    "difficulty": "medium",
+    "explanation": "Vintage Bollywood film screenshot showcasing Nana Patekar's legendary intense human acting style."
+  },
+  {
+    "id": "meme032",
+    "file": "/memes/meme032.svg",
+    "title": "Bangalore Auto Digital Meter Showing Error 9999",
+    "answer": "HUMAN",
+    "category": "City Humor",
+    "difficulty": "hard",
+    "explanation": "Real camera snapshot taken by an auto passenger in Bengaluru when the digital fare meter glitched out."
+  }
+]

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cyanFlame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Pixelpalooza Grid lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <text x="170" y="19" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="11" text-anchor="middle">👤 HUMAN: BANGALORE REAL AUTO METER</text>
+  </g>
+
+  <!-- Elements -->
+  
+        <!-- Real Auto Dashboard Texture -->
+        <rect x="80" y="80" width="640" height="360" rx="16" fill="#18181b" stroke="#3f3f46" stroke-width="5"/>
+        <!-- Digital Fare Meter Box -->
+        <g transform="translate(180, 120)">
+          <rect x="0" y="0" width="440" height="200" rx="12" fill="#09090b" stroke="#ef4444" stroke-width="4"/>
+          <text x="220" y="40" fill="#a1a1aa" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">ELECTRONIC DIGITAL FARE METER</text>
+          <!-- Glowing Red 7-Segment LED Display -->
+          <rect x="40" y="60" width="360" height="85" fill="#18181b" stroke="#27272a" stroke-width="2"/>
+          <text x="220" y="125" fill="#ef4444" font-family="monospace" font-weight="900" font-size="52" text-anchor="middle" filter="drop-shadow(0 0 10px #ef4444)">₹ 9999.00</text>
+          <text x="220" y="175" fill="#fbbf24" font-family="monospace" font-size="13" text-anchor="middle">DISTANCE: 1.2 KM • INDIRANAGAR</text>
+        </g>
+        <rect x="180" y="480" width="440" height="54" rx="27" fill="#000" stroke="#ef4444" stroke-width="4"/>
+        <text x="400" y="515" fill="#facc15" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" text-anchor="middle">"ONE AND A HALF LAGEGA SAAR"</text>
+        
+
+  <!-- Watermark border corner accents -->
+  <rect x="15" y="15" width="20" height="4" fill="#ff007a"/>
+  <rect x="15" y="15" width="4" height="20" fill="#ff007a"/>
+  <rect x="765" y="15" width="20" height="4" fill="#00f0ff"/>
+  <rect x="781" y="15" width="4" height="20" fill="#00f0ff"/>
+  <rect x="15" y="581" width="20" height="4" fill="#00f0ff"/>
+  <rect x="15" y="565" width="4" height="20" fill="#00f0ff"/>
+  <rect x="765" y="581" width="20" height="4" fill="#ff007a"/>
+  <rect x="781" y="565" width="4" height="20" fill="#ff007a"/>
+</svg>
